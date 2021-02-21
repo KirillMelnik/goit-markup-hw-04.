@@ -66,18 +66,13 @@ p {
 }
 
 .log-studio-mail {
+  display: flex;
   color: #757575;
 }
 
 .log-studio-mail:hover,
 .log-studio-mail:focus {
   color: #2196f3;
-}
-
-.log-studio-mail::before {
-  content: '';
-  display: block;
-  border-image: url(../img/svg/envelope\\(hover\).svg);
 }
 
 .back-color {
@@ -396,7 +391,7 @@ p {
 
 .advantage {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .ourteam-container {
@@ -489,49 +484,79 @@ p {
   display: flex;
   margin-top: 16px;
   padding: 0px 32px 30px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
+.link:hover,
+.link:focus {
+  background-color: var(--blue-text);
+}
+
+.link:active {
+  fill: transparent;
+}
+
 .link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-text);
+  fill: var(--links);
+  border-radius: 50%;
+}
+
+.link:hover,
+.link:focus {
+  background-color: var(--blue-text);
+  fill: var(--white-text);
 }
 
 .link-icon {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
+  /* fill: currentColor; */
 }
 
 .links-width:not(:last-child) {
   margin-right: 10px;
 }
 
-/* .social-links li {
+.clients {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients-links {
   display: flex;
-} */
+  justify-content: center;
+  align-items: center;
+}
 
-/* .social-links li:not(:last-child) {
+.client-icon {
+  width: 170px;
+  height: 90px;
+}
+
+.advantage-icons {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--background-white-grey);
+}
+
+.mail-svg {
   margin-right: 10px;
+  fill: var(--pepel-text-phone);
 }
 
-.social-links a {
-  display: block;
-  height: 44px;
-  width: 44px;
-}
-
-.instagram {
-  background-image: url(../img/icons/instagram.svg);
-}
-
-.twitter {
-  background-image: url(../img/icons/twitter.svg);
-}
-
-.facebook {
-  background-image: url(../img/icons/facebook.svg);
-}
-
-.linkedin {
-  background-image: url(../img/icons/linkedin.svg);
+/* .mail-svg:hover {
+  fill: var(--blue-text);
 } */
