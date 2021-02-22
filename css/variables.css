@@ -10,4 +10,6 @@
   --mouse: rgba(0, 0, 0, 1);
   --margin-cards: 30px;
   --links: rgba(175, 177, 184, 1);
+  --gradient: rgba(47, 48, 58, 0.4);
+  --links-background: rgba(255, 255, 255, 0.1);
 }
