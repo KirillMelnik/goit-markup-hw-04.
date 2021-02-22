@@ -31,8 +31,20 @@
                 </ul>
             </nav>
             <ul class="flex-mail">
-                <li class="log-studio-display"><a class="log-studio-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="log-studio-display"><a class="log-studio-mail" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="log-studio-display">
+                    <a class="log-studio-mail" href="mailto:info@devstudio.com">
+                        <svg class="mail-svg" width="16" height="12">
+                            <use href="./img/icons/symbol-defs1.svg#mail"></use>
+                        </svg>info@devstudio.com
+                    </a>
+                </li>
+                <li class="log-studio-display">
+                    <a class="log-studio-mail" href="tel:+380961111111">
+                        <svg class="mail-svg" width="10" height="16">
+                            <use href="./img/icons/symbol-defs1.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -126,19 +138,54 @@
         </section>
     </main>
     <footer class="back-ftr">
-        <div class="container">
-            <a class="logo-ft" href="./index.html">Web<span class="logo-ft-sudio">Studio</span></a>
-            <address class="mail-tel">
-                <p class="adrs-color">г. Киев, пр-т Леси Украинки, 26</p>
-                <ul>
-                    <li class="mail-ft">
-                        <a class="mail" href="mailto:info@example.com">info@example.com</a>
+        <div class="container join-padding">
+            <div class="join">
+                <a class="logo-ft" href="./index.html">Web<span class="logo-ft-sudio">Studio</span></a>
+                <address class="mail-tel">
+                    <p class="adrs-color">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul>
+                        <li class="mail-ft">
+                            <a class="mail" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="tel-ft">
+                            <a class="mail" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="join footer-join">
+                <p class="join-content">присоединяйтесь</p>
+                <ul class="join-flex">
+                    <li class="join-margin">
+                        <a href="" class="join-link">
+                            <svg class="join-icon">
+                                <use href="./img/icons/symbol-defs1.svg#instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a class="mail" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="join-margin">
+                        <a href="" class="join-link">
+                            <svg class="join-icon">
+                                <use href="./img/icons/symbol-defs1.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-margin">
+                        <a href="" class="join-link">
+                            <svg class="join-icon">
+                                <use href="./img/icons/symbol-defs1.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="join-margin">
+                        <a href="" class="join-link">
+                            <svg class="join-icon">
+                                <use href="./img/icons/symbol-defs1.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
