@@ -656,6 +656,7 @@ p {
 .clients-container {
   padding-top: 98px;
   padding-bottom: 94px;
+  background-color: var(--white-text);
 }
 
 .focus-aline {
