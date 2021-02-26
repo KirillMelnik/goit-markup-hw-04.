@@ -153,11 +153,33 @@ p {
 
 .what-we-do {
   display: flex;
-  /* padding-bottom: 94px; */
+}
+
+.what-we-do-position {
+  position: relative;
 }
 
 .what-we-do-position:not(:last-child) {
   margin-right: 30px;
+}
+
+.thumb-position {
+  position: relative;
+  overflow: hidden;
+  /* background-color: #fff; */
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.position-absolute {
+  justify-content: center;
+  position: absolute;
+  bottom: a;
+  right: 0;
+  margin: auto;
+  padding: 8px 16px;
+  border-bottom-left-radius: 4px;
+  color: #2196f3;
 }
 
 .back-color-manager:not(:last-child) {
